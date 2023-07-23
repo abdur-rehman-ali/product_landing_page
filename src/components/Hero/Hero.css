@@ -1,0 +1,67 @@
+#hero{
+  display: flex;
+  margin: 0px 10%;
+  padding: 5% 0;
+}
+
+.hero-left{
+  width: 60%;
+}
+
+.hero-left__heading {
+  font-family: Poppins;
+  font-size: 108px;
+  font-weight: 800;
+  line-height: 102px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.hero-left__content{
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5A5959;
+  margin-top: 20px;
+}
+
+.hero-left__buttons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 330px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.button {
+  width: 45%;
+  height: 100%;
+  padding: 6px 16px 6px 16px;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.hero-left__button__shop{
+  background-color: var(--primaryColor);
+  color: white;
+}
+
+.hero-left__shops{
+  margin-top: 20px;
+}
+
+.hero-left__shops .shops {
+  margin-top: 10px;
+}
+
+.hero-right{
+  width: 40%;
+}
